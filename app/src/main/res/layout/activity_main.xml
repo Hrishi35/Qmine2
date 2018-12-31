@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:hint="question"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <EditText
+        android:id="@+id/tv_marks"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:hint="marks"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/Difficulty">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/buttonChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Image" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center" />
+
+
+    <Button
+        android:id="@+id/buttonUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit" />
+
+
+
+
+</LinearLayout>
